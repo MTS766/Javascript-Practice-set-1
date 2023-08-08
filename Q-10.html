@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QUESTION NO-10</title>
+</head>
+<body>
+    
+
+
+    <script>
+        let tem = prompt("Enter A tempreture : ");
+        let celsius_fahrenheit = prompt("Press Capital 'C' OR 'F' to Convert Tempreture In Celsius And Fahrentheit :");
+        
+        let C = (tem-32)*(5/9);
+        let F = (tem*9/5)+32;
+
+        if(celsius_fahrenheit === "C")
+        {
+            console.log("The Tempreture In Celsius Is :",C);
+        }
+        else if (celsius_fahrenheit === "F")
+        {
+            console.log("The Tempreture In Fahrenheit Is :",F);   
+        }
+        else
+        {
+            console.log("Enter valid Letter : ");
+        }
+    </script>
+</body>
+</html>
